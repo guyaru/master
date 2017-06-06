@@ -16,7 +16,9 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 class cnEncode:
-    u'''字符转码'''
+    u'''字符转码
+        Parameter:cnStr
+    '''
     
     def cnCode(self,cnStr):
         u'''字符转码使打印的中文能正常显示'''
