@@ -116,7 +116,7 @@ class getElement(object):
             - timeout:超时前等待的时间  
         return：获取定位元素的文本
     '''    
-    def find_element_wait_and_get_text(self,type,value,timeout=1):
+    def find_element_wait_and_get_text(self,type,value,timeout=2):
         if type == "xpath":
             return WebDriverWait(self.driver,timeout).until(lambda x:x.find_element_by_xpath(value)).text
         elif type == "id":
