@@ -38,7 +38,7 @@ class getElement(object):
             - timeout:超时前等待的时间
         return：查找的元素对象
     '''    
-    def find_element_with_wait(self,type,value,timeout=1):
+    def find_element_with_wait(self,type,value,timeout=2):
         if type == "xpath":
             return WebDriverWait(self.driver,timeout).until(lambda x:x.find_element_by_xpath(value))
         elif type == "id":
