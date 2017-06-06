@@ -18,7 +18,7 @@ sys.setdefaultencoding('utf-8')
 class cnEncode:
     u'''字符转码
         Parameter:
-        cnStr
+        cnStr:change str
     '''
     
     def cnCode(self,cnStr):
