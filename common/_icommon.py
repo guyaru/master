@@ -389,7 +389,7 @@ class tableElement(object):
         frameElem = frameElement(self.driver)
         #定位到mainFrame上
         frameElem.switch_to_main()
-        frameElem.from_frame_to_otherFrame("rightFrame")
+        frameElem.from_frame_to_otherFrame("rigthFrame")
         
         tx = "html/body/div[1]/div[7]/div[2]/div[1]/table"
         
