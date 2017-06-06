@@ -17,7 +17,7 @@ sys.setdefaultencoding('utf-8')
 
 class cnEncode:
     u'''字符转码
-        Parameter:
+        Parameter11:
         cnStr
     '''
     
