@@ -19,7 +19,7 @@ class cnEncode:
     
     u'''字符转码
         Parameter:
-        cnStr:str字符串
+        cnStr:str字符串22
     '''
     
     def cnCode(self,cnStr):
